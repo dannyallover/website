@@ -161,6 +161,9 @@
   window.addEventListener('scroll', updateScroll)
 
   // Initial setup
-  setupAnimation()
+  const iOSChromeDetected = /CriOS/.test(navigator.userAgent);
+  if(!iOSChromeDetected) {
+    setupAnimation()
+  }
 
 })()
