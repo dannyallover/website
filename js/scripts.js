@@ -161,8 +161,8 @@
   window.addEventListener('scroll', updateScroll)
 
   // Initial setup
-  const iOSChromeDetected = /CriOS/.test(navigator.userAgent);
-  if(!iOSChromeDetected) {
+  const case = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+  if(!case) {
     setupAnimation()
   }
 
