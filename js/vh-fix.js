@@ -14,7 +14,7 @@
 
 const iOSChromeDetected = /CriOS/.test(navigator.userAgent);
 
-if (!iOSChromeDetected) {
+if (iOSChromeDetected) {
   const getHeight = function getComputedHeightFrom(element) {
     const computedHeightString = getComputedStyle(element).height;
     const elementHeight = Number(computedHeightString.replace('px', ''));
