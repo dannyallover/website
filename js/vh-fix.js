@@ -11,7 +11,7 @@
  *   AppleWebKit/600.1.4 (KHTML, like Gecko)
  *   CriOS/45.0.2454.89 Mobile/13A344 Safari/600.1.4 (000205)
  */
-
+ 
 const iOSChromeDetected = /CriOS/.test(navigator.userAgent);
 
 if (iOSChromeDetected) {
