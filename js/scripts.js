@@ -161,9 +161,6 @@
   window.addEventListener('scroll', updateScroll)
 
   // Initial setup
-  const case = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
-  if(!case) {
-    setupAnimation()
-  }
+  setupAnimation()
 
 })()
