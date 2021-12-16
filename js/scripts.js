@@ -44,10 +44,10 @@
   var translateXMax = -200
 
   // Popullating the `rotateXMaxList` and `rotateYMaxList` with random values
-  // images.forEach(function () {
-  //   rotateXMaxList.push(randomPositiveOrNegative(20, 40))
-  //   rotateYMaxList.push(randomPositiveOrNegative(20, 60))
-  // })
+  images.forEach(function () {
+    rotateXMaxList.push(randomPositiveOrNegative(20, 40))
+    rotateYMaxList.push(randomPositiveOrNegative(20, 60))
+  })
 
   // The `fakeScroll` is an element to make the page scrollable
   // Here we are creating it and appending it to the `body`
