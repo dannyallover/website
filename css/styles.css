@@ -34,8 +34,19 @@ body {
   background-position: center;
 }
 
+.overlay1 {
+  position: fixed;
+  top:300px;
+  width: 300px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../img/main.png");
+  background-size: contain;
+}
+
 .overlay2 {
-  position: relative;
+  position: fixed;
   top:300px;
   width: 300px;
   height: 300px;
@@ -92,8 +103,8 @@ body {
 }
 
 .image:nth-child(1) {
-  background-image: url("../img/main.png");
-  background-size: 300px;
+  /* background-image: url("../img/main.png");
+  background-size: 300px; */
 }
 
 .image:nth-child(2) {
