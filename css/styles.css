@@ -34,20 +34,76 @@ body {
   background-position: center;
 }
 
+.overlay2 {
+  position: relative;
+  top:275px;
+  width: 300px;
+  height: 33.5vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../cv/cv-pictures/main.png");
+  background-size: contain;
+}
+
+.overlay2:after {
+    content: '\A';
+    position: absolute;
+    width: 300px; height:33.5vh;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+    opacity: 0;
+    transition: all .25s;
+    -webkit-transition: all .25s;
+}
+
+.overlay2:hover:after {
+    opacity: 1;
+}
+
+.overlay3 {
+  position: relative;
+  top:300px;
+  width: 400px;
+  height: 33.5vh;
+  right:100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../books/books-pictures/main.png");
+  background-size: contain;
+}
+
+.overlay3:after {
+    content: '\A';
+    position: absolute;
+    width: 400px; height:33.5vh;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+    opacity: 0;
+    transition: all .25s;
+    -webkit-transition: all .25s;
+}
+
+.overlay3:hover:after {
+    opacity: 1;
+}
+
 .image:nth-child(2n) {
   justify-self: start;
 }
 
 .image:nth-child(1) {
-  background-image: url("../img/image1.jpg");
+  background-image: url("../img/main.png");
+  background-size: 300px;
 }
 
 .image:nth-child(2) {
-  background-image: url("../img/image2.jpg");
+  /* background-image: url("../img/cv.png");
+  background-size: 300px; */
 }
 
 .image:nth-child(3) {
-  background-image: url("../img/image3.jpg");
+  /* background-image: url("../img/books.png");
+  background-size: 300px; */
 }
 
 .image:nth-child(4) {
