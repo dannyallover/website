@@ -36,9 +36,9 @@ body {
 
 .overlay1 {
   position: fixed;
-  top:300px;
-  width: 300px;
-  height: 450px;
+  top:200px;
+  width: 267px;
+  height: 400px;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url("../img/main.png");
@@ -73,10 +73,10 @@ body {
 
 .overlay3 {
   position: relative;
-  top:335px;
+  top:200px;
   width: 400px;
   height: 300px;
-  right:100px;
+  right:125px;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url("../books/books-pictures/main.png");
@@ -95,6 +95,32 @@ body {
 }
 
 .overlay3:hover:after {
+    opacity: 1;
+}
+
+.overlay4 {
+  position: relative;
+  top:230px;
+  width: 400px;
+  height: 267px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../microblog/microblog-pictures/main.jpeg");
+  background-size: contain;
+}
+
+.overlay4:after {
+    content: '\A';
+    position: absolute;
+    width: 400px; height:267px;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+    opacity: 0;
+    transition: all .25s;
+    -webkit-transition: all .25s;
+}
+
+.overlay4:hover:after {
     opacity: 1;
 }
 
@@ -118,7 +144,7 @@ body {
 }
 
 .image:nth-child(4) {
-  background-image: url("../img/image4.jpg");
+  /* background-image: url("../img/image4.jpg"); */
 }
 
 .image:nth-child(5) {
