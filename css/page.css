@@ -10,3 +10,14 @@ h1 { color: black; font-family: 'Georgia', sans-serif; font-size: 34px; font-wei
 h3 { color: black; font-family: 'Georgia', sans-serif; font-size: 24px; font-weight: 300; line-height: 32px; margin: 20 0 5px;  }
 
 body {background-color: lightgray;}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+}
+th {
+  text-align: left;
+}

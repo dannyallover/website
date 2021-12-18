@@ -34,7 +34,7 @@ body {
   background-position: center;
 }
 
-.overlay1 {
+.image1 {
   position: fixed;
   top:200px;
   width: 267px;
@@ -45,7 +45,7 @@ body {
   background-size: contain;
 }
 
-.overlay2 {
+.image2 {
   position: fixed;
   top:200px;
   width: 300px;
@@ -56,7 +56,7 @@ body {
   background-size: contain;
 }
 
-.overlay2:after {
+.image2:after {
     content: '\A';
     position: absolute;
     width: 300px; height:300px;
@@ -67,11 +67,11 @@ body {
     -webkit-transition: all .25s;
 }
 
-.overlay2:hover:after {
+.image2:hover:after {
     opacity: 1;
 }
 
-.overlay3 {
+.image3 {
   position: relative;
   top:200px;
   width: 400px;
@@ -83,7 +83,7 @@ body {
   background-size: contain;
 }
 
-.overlay3:after {
+.image3:after {
     content: '\A';
     position: absolute;
     width: 400px; height:300px;
@@ -94,11 +94,11 @@ body {
     -webkit-transition: all .25s;
 }
 
-.overlay3:hover:after {
+.image3:hover:after {
     opacity: 1;
 }
 
-.overlay4 {
+.image4 {
   position: relative;
   top:200px;
   width: 400px;
@@ -109,7 +109,7 @@ body {
   background-size: contain;
 }
 
-.overlay4:after {
+.image4:after {
     content: '\A';
     position: absolute;
     width: 400px; height:267px;
@@ -120,7 +120,61 @@ body {
     -webkit-transition: all .25s;
 }
 
-.overlay4:hover:after {
+.image4:hover:after {
+    opacity: 1;
+}
+
+.image5 {
+  position: relative;
+  top:200px;
+  width: 300px;
+  height: 375px;
+  right:30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../writing/writing-pictures/main.png");
+  background-size: contain;
+}
+
+.image5:after {
+    content: '\A';
+    position: absolute;
+    width: 300px; height:375px;
+    top:0; right:0;
+    background:rgba(0,0,0,0.6);
+    opacity: 0;
+    transition: all .25s;
+    -webkit-transition: all .25s;
+}
+
+.image5:hover:after {
+    opacity: 1;
+}
+
+.image6 {
+  position: relative;
+  top:200px;
+  width: 267px;
+  height: 400px;
+  left:25px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../gym/gym-pictures/main.jpeg");
+  background-size: contain;
+}
+
+.image6:after {
+    content: '\A';
+    position: absolute;
+    width: 267px; height:400px;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+    opacity: 0;
+    transition: all .25s;
+    -webkit-transition: all .25s;
+}
+
+.image6:hover:after {
     opacity: 1;
 }
 
@@ -148,11 +202,11 @@ body {
 }
 
 .image:nth-child(5) {
-  background-image: url("../img/image5.jpg");
+  /* background-image: url("../img/image5.jpg"); */
 }
 
 .image:nth-child(6) {
-  background-image: url("../img/image6.jpg");
+  /* background-image: url("../img/image6.jpg"); */
 }
 
 .image:nth-child(7) {

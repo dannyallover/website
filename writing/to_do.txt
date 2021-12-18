@@ -1,0 +1,15 @@
+<p>
+Check out my <a href="">grammar guide</a>.
+</p>
+
+<p>
+Some <a href="phrases/phrases.html">phrases</a> that I like.
+</p>
+
+<p>
+Some good <a href="https://quizlet.com/642066067/vocabulary-flash-cards/">vocab words</a>.
+</p>
+
+<p>
+Some <a href="articles/quotes.html">great quotes</a>.
+</p>
