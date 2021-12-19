@@ -100,33 +100,6 @@ body {
     opacity: 1;
 }
 
-.image4 {
-  position: fixed;
-  top:200px;
-  width: 300px;
-  height: 300px;
-  left:16.5px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url("../merch/merch-pictures/main.png");
-  background-size: contain;
-}
-
-.image4:after {
-    content: '\A';
-    position: absolute;
-    width: 300px; height:300px;
-    top:0; left:0;
-    background:rgba(0,1,0,0.6);
-    opacity: 0;
-    transition: all .25s;
-    -webkit-transition: all .25s;
-}
-
-.image4:hover:after {
-    opacity: 1;
-}
-
 .image5 {
   position: relative;
   top:200px;
@@ -370,23 +343,23 @@ body {
 }
 
 .image14 {
-  position: relative;
+  position: fixed;
   top:200px;
-  width: 400px;
-  height: 267px;
-  left:30px;
+  width: 300px;
+  height: 300px;
+  left:16.5px;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../thinking/thinking-pictures/main.jpeg");
+  background-image: url("../merch/merch-pictures/main.png");
   background-size: contain;
 }
 
 .image14:after {
     content: '\A';
     position: absolute;
-    width: 400px; height:267px;
+    width: 300px; height:300px;
     top:0; left:0;
-    background:rgba(0,0,0,0.6);
+    background:rgba(0,1,0,0.6);
     opacity: 0;
     transition: all .25s;
     -webkit-transition: all .25s;
@@ -398,7 +371,7 @@ body {
 
 .text2 {
   text-align: center;
-  margin-top: 545px;
+  margin-top: 540px;
   margin-left:0px;
   display: block; font-size:30pt;
   font-family:Georgia
@@ -408,14 +381,6 @@ body {
   text-align: center;
   margin-top: 500px;
   margin-right:65px;
-  display: block; font-size:30pt;
-  font-family:Georgia
-}
-
-.text4 {
-  text-align: center;
-  margin-top: 495px;
-  margin-left:35px;
   display: block; font-size:30pt;
   font-family:Georgia
 }
@@ -494,8 +459,8 @@ body {
 
 .text14 {
   text-align: center;
-  margin-top: 203px;
-  margin-left:150px;
+  margin-top: 495px;
+  margin-left:35px;
   display: block; font-size:30pt;
   font-family:Georgia
 }
@@ -618,33 +583,6 @@ body {
   }
 
   .image3:hover:after {
-      opacity: 1;
-  }
-
-  .image4 {
-    position: fixed;
-    top:200px;
-    width: 300px;
-    height: 300px;
-    left:0px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url("../merch/merch-pictures/main.png");
-    background-size: contain;
-  }
-
-  .image4:after {
-      content: '\A';
-      position: absolute;
-      width: 300px; height:300px;
-      top:0; left:0;
-      background:rgba(0,1,0,0.6);
-      opacity: 0;
-      transition: all .25s;
-      -webkit-transition: all .25s;
-  }
-
-  .image4:hover:after {
       opacity: 1;
   }
 
@@ -892,23 +830,23 @@ body {
   }
 
   .image14 {
-    position: relative;
+    position: fixed;
     top:200px;
-    width: 350px;
-    height: 233px;
-    left:-25.5px;
+    width: 300px;
+    height: 300px;
+    left:0px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("../thinking/thinking-pictures/main.jpeg");
+    background-image: url("../merch/merch-pictures/main.png");
     background-size: contain;
   }
 
   .image14:after {
       content: '\A';
       position: absolute;
-      width: 350px; height:233px;
+      width: 300px; height:300px;
       top:0; left:0;
-      background:rgba(0,0,0,0.6);
+      background:rgba(0,1,0,0.6);
       opacity: 0;
       transition: all .25s;
       -webkit-transition: all .25s;
@@ -920,7 +858,7 @@ body {
 
   .text2 {
     text-align: center;
-    margin-top: 545px;
+    margin-top: 540px;
     margin-left:0px;
     display: block; font-size:30pt;
     font-family:Georgia
@@ -930,14 +868,6 @@ body {
     text-align: center;
     margin-top: 497px;
     margin-right:0px;
-    display: block; font-size:30pt;
-    font-family:Georgia
-  }
-
-  .text4 {
-    text-align: center;
-    margin-top: 495px;
-    margin-left:0px;
     display: block; font-size:30pt;
     font-family:Georgia
   }
@@ -1016,7 +946,7 @@ body {
 
   .text14 {
     text-align: center;
-    margin-top: 203px;
+    margin-top: 495px;
     margin-left:0px;
     display: block; font-size:30pt;
     font-family:Georgia
