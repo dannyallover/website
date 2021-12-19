@@ -60,8 +60,8 @@ body {
 .image2:after {
     content: '\A';
     position: absolute;
-    width: 267px; height:341px;
-    top:1.5px; left:0;
+    width: 267px; height:342px;
+    top:0; left:0;
     background:rgba(0,0,0,0.6);
     opacity: 0;
     transition: all .25s;
