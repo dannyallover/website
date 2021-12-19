@@ -414,6 +414,18 @@ body {
 .image:nth-child(10) {
 }
 
+.image:nth-child(11) {
+}
+
+.image:nth-child(12) {
+}
+
+.image:nth-child(13) {
+}
+
+.image:nth-child(14) {
+}
+
 @media screen and (max-width: 760px) {
   .container {
     grid-template-columns: 1fr;
