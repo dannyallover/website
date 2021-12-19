@@ -51,7 +51,7 @@ body {
   top:200px;
   width: 267px;
   height: 342px;
-  left:0px;
+  left:30px;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url("../about/about-pictures/main.jpeg");
@@ -78,7 +78,7 @@ body {
   top:200px;
   width: 300px;
   height: 300px;
-  left:0px;
+  left:-35px;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url("../cv/cv-pictures/main.png");
@@ -105,7 +105,7 @@ body {
   top:200px;
   width: 300px;
   height: 300px;
-  left:0px;
+  left:30px;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url("../merch/merch-pictures/main.png");
@@ -117,7 +117,7 @@ body {
   top:200px;
   width: 400px;
   height: 300px;
-  right:0px;
+  right:135px;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url("../books/books-pictures/main.png");
@@ -143,7 +143,7 @@ body {
   position: relative;
   top:200px;
   width: 400px;
-  left:0px;
+  left:30px;
   height: 267px;
   background-repeat: no-repeat;
   background-position: center;
