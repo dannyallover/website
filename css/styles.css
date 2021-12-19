@@ -39,7 +39,7 @@ body {
   top:200px;
   width: 267px;
   height: 400px;
-  left:0px;
+  left:16.5px;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url("../main-pictures/main.png");
@@ -51,7 +51,7 @@ body {
   top:200px;
   width: 267px;
   height: 342px;
-  left:30px;
+  left:16.5px;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url("../about/about-pictures/main.jpeg");
@@ -115,9 +115,9 @@ body {
 .image5 {
   position: relative;
   top:200px;
-  width: 400px;
-  height: 300px;
-  right:135px;
+  width: 350px;
+  height: 263px;
+  right:25px;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url("../books/books-pictures/main.png");
@@ -127,7 +127,7 @@ body {
 .image5:after {
     content: '\A';
     position: absolute;
-    width: 400px; height:300px;
+    width: 350px; height:263px;
     top:0; left:0;
     background:rgba(0,0,0,0.6);
     opacity: 0;
@@ -142,9 +142,9 @@ body {
 .image6 {
   position: relative;
   top:200px;
-  width: 400px;
-  left:30px;
-  height: 267px;
+  width: 350px;
+  height: 233px;
+  left:25px;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url("../microblog/microblog-pictures/main.jpeg");
