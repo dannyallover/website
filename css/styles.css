@@ -436,4 +436,352 @@ body {
   .image:nth-child(2n) {
     justify-self: center;
   }
+
+  .image1 {
+    position: fixed;
+    top:200px;
+    width: 267px;
+    height: 400px;
+    left:16.5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../main-pictures/main.png");
+    background-size: contain;
+  }
+
+  .image2 {
+    position: fixed;
+    top:200px;
+    width: 267px;
+    height: 342px;
+    left:16.5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../about/about-pictures/main.jpeg");
+    background-size: contain;
+  }
+
+  .image2:after {
+      content: '\A';
+      position: absolute;
+      width: 267px; height:342px;
+      top:0; left:0;
+      background:rgba(0,0,0,0.6);
+      opacity: 0;
+      transition: all .25s;
+      -webkit-transition: all .25s;
+  }
+
+  .image2:hover:after {
+      opacity: 1;
+  }
+
+  .image3 {
+    position: fixed;
+    top:200px;
+    width: 300px;
+    height: 300px;
+    left:0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../cv/cv-pictures/main.png");
+    background-size: contain;
+  }
+
+  .image3:after {
+      content: '\A';
+      position: absolute;
+      width: 300px; height:300px;
+      top:0; left:0;
+      background:rgba(0,0,0,0.6);
+      opacity: 0;
+      transition: all .25s;
+      -webkit-transition: all .25s;
+  }
+
+  .image3:hover:after {
+      opacity: 1;
+  }
+
+  .image4 {
+    position: fixed;
+    top:200px;
+    width: 300px;
+    height: 300px;
+    left:0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../merch/merch-pictures/main.png");
+    background-size: contain;
+  }
+
+  .image5 {
+    position: relative;
+    top:200px;
+    width: 350px;
+    height: 263px;
+    right:25.5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../books/books-pictures/main.png");
+    background-size: contain;
+  }
+
+  .image5:after {
+      content: '\A';
+      position: absolute;
+      width: 350px; height:263px;
+      top:0; left:0;
+      background:rgba(0,0,0,0.6);
+      opacity: 0;
+      transition: all .25s;
+      -webkit-transition: all .25s;
+  }
+
+  .image5:hover:after {
+      opacity: 1;
+  }
+
+  .image6 {
+    position: relative;
+    top:200px;
+    width: 350px;
+    height: 233px;
+    left:-25.5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../microblog/microblog-pictures/main.jpeg");
+    background-size: contain;
+  }
+
+  .image6:after {
+      content: '\A';
+      position: absolute;
+      width: 350px; height:233px;
+      top:0; left:0;
+      background:rgba(0,0,0,0.6);
+      opacity: 0;
+      transition: all .25s;
+      -webkit-transition: all .25s;
+  }
+
+  .image6:hover:after {
+      opacity: 1;
+  }
+
+  .image7 {
+    position: relative;
+    top:200px;
+    width: 300px;
+    height: 375px;
+    left:0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../writing/writing-pictures/main.png");
+    background-size: contain;
+  }
+
+  .image7:after {
+      content: '\A';
+      position: absolute;
+      width: 300px; height:375px;
+      top:0; right:0;
+      background:rgba(0,0,0,0.6);
+      opacity: 0;
+      transition: all .25s;
+      -webkit-transition: all .25s;
+  }
+
+  .image7:hover:after {
+      opacity: 1;
+  }
+
+  .image8 {
+    position: relative;
+    top:200px;
+    width: 267px;
+    height: 400px;
+    left:16.5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../gym/gym-pictures/main.jpeg");
+    background-size: contain;
+  }
+
+  .image8:after {
+      content: '\A';
+      position: absolute;
+      width: 267px; height:400px;
+      top:0; left:0;
+      background:rgba(0,0,0,0.6);
+      opacity: 0;
+      transition: all .25s;
+      -webkit-transition: all .25s;
+  }
+
+  .image8:hover:after {
+      opacity: 1;
+  }
+
+  .image9 {
+    position: relative;
+    top:200px;
+    width: 350px;
+    height: 324px;
+    right:25.5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../music/music-pictures/main.jpeg");
+    background-size: contain;
+  }
+
+  .image9:after {
+      content: '\A';
+      position: absolute;
+      width: 350px; height:324px;
+      top:0; left:0;
+      background:rgba(0,0,0,0.6);
+      opacity: 0;
+      transition: all .25s;
+      -webkit-transition: all .25s;
+  }
+
+  .image9:hover:after {
+      opacity: 1;
+  }
+
+  .image10 {
+    position: relative;
+    top:200px;
+    width: 350px;
+    height: 302px;
+    left:-25.5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../binge-watch/binge-watch-pictures/main.jpeg");
+    background-size: contain;
+  }
+
+  .image10:after {
+      content: '\A';
+      position: absolute;
+      width: 350px; height:302px;
+      top:0; left:0;
+      background:rgba(0,0,0,0.6);
+      opacity: 0;
+      transition: all .25s;
+      -webkit-transition: all .25s;
+  }
+
+  .image10:hover:after {
+      opacity: 1;
+  }
+
+  .image11 {
+    position: relative;
+    top:200px;
+    width: 350px;
+    height: 234px;
+    right:25.5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../altruism/altruism-pictures/main.jpeg");
+    background-size: contain;
+  }
+
+  .image11:after {
+      content: '\A';
+      position: absolute;
+      width: 350px; height:234px;
+      top:0; left:0;
+      background:rgba(0,0,0,0.6);
+      opacity: 0;
+      transition: all .25s;
+      -webkit-transition: all .25s;
+  }
+
+  .image11:hover:after {
+      opacity: 1;
+  }
+
+  .image12 {
+    position: relative;
+    top:200px;
+    width: 300px;
+    height: 319px;
+    left:0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../mental-health/mental-health-pictures/main.png");
+    background-size: contain;
+  }
+
+  .image12:after {
+      content: '\A';
+      position: absolute;
+      width: 300px; height:319px;
+      top:0; left:0;
+      background:rgba(0,0,0,0.6);
+      opacity: 0;
+      transition: all .25s;
+      -webkit-transition: all .25s;
+  }
+
+  .image12:hover:after {
+      opacity: 1;
+  }
+
+  .image13 {
+    position: relative;
+    top:200px;
+    width: 300px;
+    height: 400px;
+    left:0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../pictures/pictures-pictures/main.png");
+    background-size: contain;
+  }
+
+  .image13:after {
+      content: '\A';
+      position: absolute;
+      width: 300px; height:400px;
+      top:0; left:0;
+      background:rgba(0,0,0,0.6);
+      opacity: 0;
+      transition: all .25s;
+      -webkit-transition: all .25s;
+  }
+
+  .image13:hover:after {
+      opacity: 1;
+  }
+
+  .image14 {
+    position: relative;
+    top:200px;
+    width: 350px;
+    height: 233px;
+    left:-25.5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../thinking/thinking-pictures/main.jpeg");
+    background-size: contain;
+  }
+
+  .image14:after {
+      content: '\A';
+      position: absolute;
+      width: 350px; height:233px;
+      top:0; left:0;
+      background:rgba(0,0,0,0.6);
+      opacity: 0;
+      transition: all .25s;
+      -webkit-transition: all .25s;
+  }
+
+  .image14:hover:after {
+      opacity: 1;
+  }
 }
