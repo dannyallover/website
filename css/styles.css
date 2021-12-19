@@ -888,4 +888,108 @@ body {
   .image14:hover:after {
       opacity: 1;
   }
+
+  .text2 {
+    text-align: center;
+    margin-top: 545px;
+    margin-left:0px;
+    display: block; font-size:30pt;
+    font-family:Georgia
+  }
+
+  .text3 {
+    text-align: center;
+    margin-top: 497px;
+    margin-right:0px;
+    display: block; font-size:30pt;
+    font-family:Georgia
+  }
+
+  .text4 {
+    text-align: center;
+    margin-top: 495px;
+    margin-right:65px;
+    display: block; font-size:30pt;
+    font-family:Georgia
+  }
+
+  .text5 {
+    text-align: center;
+    margin-top: 203px;
+    margin-right:0px;
+    display: block; font-size:30pt;
+    font-family:Georgia
+  }
+
+  .text6 {
+    text-align: center;
+    margin-top: 203px;
+    margin-left:0px;
+    display: block; font-size:30pt;
+    font-family:Georgia
+  }
+
+  .text7 {
+    text-align: center;
+    margin-top: 201px;
+    margin-right:0px;
+    display: block; font-size:30pt;
+    font-family:Georgia
+  }
+
+  .text8 {
+    text-align: center;
+    margin-top: 197px;
+    margin-left:0px;
+    display: block; font-size:30pt;
+    font-family:Georgia
+  }
+
+  .text9 {
+    text-align: center;
+    margin-top: 201px;
+    margin-right:0px;
+    display: block; font-size:30pt;
+    font-family:Georgia
+  }
+
+  .text10 {
+    text-align: center;
+    margin-top: 203px;
+    margin-left:0px;
+    display: block; font-size:30pt;
+    font-family:Georgia
+  }
+
+  .text11 {
+    text-align: center;
+    margin-top: 201px;
+    margin-left:0px;
+    display: block; font-size:30pt;
+    font-family:Georgia
+  }
+
+  .text12 {
+    text-align: center;
+    margin-top: 203px;
+    margin-left:0px;
+    display: block; font-size:30pt;
+    font-family:Georgia
+  }
+
+  .text13 {
+    text-align: center;
+    margin-top: 201px;
+    margin-right:0px;
+    display: block; font-size:30pt;
+    font-family:Georgia
+  }
+
+  .text14 {
+    text-align: center;
+    margin-top: 203px;
+    margin-left:0px;
+    display: block; font-size:30pt;
+    font-family:Georgia
+  }
 }
