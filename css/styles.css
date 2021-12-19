@@ -54,7 +54,7 @@ body {
   left:16.5px;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../about/about-pictures/main.jpeg");
+  background-image: url("../cv/cv-pictures/main.jpeg");
   background-size: contain;
 }
 
@@ -540,7 +540,7 @@ body {
     left:16.5px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("../about/about-pictures/main.jpeg");
+    background-image: url("../cv/cv-pictures/main.jpeg");
     background-size: contain;
   }
 
