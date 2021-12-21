@@ -183,8 +183,8 @@ body {
 .image8 {
   position: relative;
   top:200px;
-  width: 267px;
-  height: 400px;
+  width: 250px;
+  height: 375px;
   left:30px;
   background-repeat: no-repeat;
   background-position: center;
@@ -195,7 +195,7 @@ body {
 .image8:after {
     content: '\A';
     position: absolute;
-    width: 267px; height:400px;
+    width: 250px; height:375px;
     top:0; left:0;
     background:rgba(0,0,0,0.6);
     opacity: 0;
@@ -318,9 +318,9 @@ body {
 .image13 {
   position: relative;
   top:200px;
-  width: 300px;
-  height: 400px;
-  right:35px;
+  width: 281px;
+  height: 375px;
+  left:4.5px;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url("../pictures/pictures-pictures/main.png");
@@ -330,7 +330,7 @@ body {
 .image13:after {
     content: '\A';
     position: absolute;
-    width: 300px; height:400px;
+    width: 281px; height:375px;
     top:0; left:0;
     background:rgba(0,0,0,0.6);
     opacity: 0;
@@ -412,7 +412,7 @@ body {
 .text8 {
   text-align: center;
   margin-top: 197px;
-  margin-left:30px;
+  margin-left:13px;
   display: block; font-size:30pt;
   font-family:Georgia
 }
@@ -452,7 +452,7 @@ body {
 .text13 {
   text-align: center;
   margin-top: 201px;
-  margin-right:70px;
+  margin-right:9px;
   display: block; font-size:30pt;
   font-family:Georgia
 }
@@ -670,8 +670,8 @@ body {
   .image8 {
     position: relative;
     top:200px;
-    width: 267px;
-    height: 400px;
+    width: 250px;
+    height: 375px;
     left:16.5px;
     background-repeat: no-repeat;
     background-position: center;
@@ -682,7 +682,7 @@ body {
   .image8:after {
       content: '\A';
       position: absolute;
-      width: 267px; height:400px;
+      width: 250px; height:375px;
       top:0; left:0;
       background:rgba(0,0,0,0.6);
       opacity: 0;
@@ -805,8 +805,8 @@ body {
   .image13 {
     position: relative;
     top:200px;
-    width: 300px;
-    height: 400px;
+    width: 281px;
+    height: 375px;
     left:0px;
     background-repeat: no-repeat;
     background-position: center;
@@ -817,7 +817,7 @@ body {
   .image13:after {
       content: '\A';
       position: absolute;
-      width: 300px; height:400px;
+      width: 281px; height:375px;
       top:0; left:0;
       background:rgba(0,0,0,0.6);
       opacity: 0;
@@ -899,7 +899,7 @@ body {
   .text8 {
     text-align: center;
     margin-top: 197px;
-    margin-left:0px;
+    margin-right:30px;
     display: block; font-size:30pt;
     font-family:Georgia
   }
@@ -939,7 +939,7 @@ body {
   .text13 {
     text-align: center;
     margin-top: 201px;
-    margin-right:0px;
+    margin-right:20px;
     display: block; font-size:30pt;
     font-family:Georgia
   }
