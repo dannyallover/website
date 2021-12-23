@@ -264,9 +264,9 @@ body {
 .image11 {
   position: relative;
   top:200px;
-  width: 400px;
-  height: 267px;
-  right:135px;
+  width: 319px;
+  height: 325px;
+  right:57px;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url("../altruism/altruism-pictures/main.jpeg");
@@ -276,7 +276,7 @@ body {
 .image11:after {
     content: '\A';
     position: absolute;
-    width: 400px; height:267px;
+    width: 319px; height:325px;
     top:0; left:0;
     background:rgba(0,0,0,0.6);
     opacity: 0;
@@ -291,9 +291,9 @@ body {
 .image12 {
   position: relative;
   top:200px;
-  width: 300px;
-  height: 319px;
-  left:27px;
+  width: 306px;
+  height: 325px;
+  left:20px;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url("../mental-health/mental-health-pictures/main.png");
@@ -303,7 +303,7 @@ body {
 .image12:after {
     content: '\A';
     position: absolute;
-    width: 300px; height:319px;
+    width: 306px; height:325px;
     top:0; left:0;
     background:rgba(0,0,0,0.6);
     opacity: 0;
@@ -436,7 +436,7 @@ body {
 .text11 {
   text-align: center;
   margin-top: 201px;
-  margin-left:-180px;
+  margin-left:-90px;
   display: block; font-size:30pt;
   font-family:Georgia
 }
@@ -444,7 +444,7 @@ body {
 .text12 {
   text-align: center;
   margin-top: 203px;
-  margin-left:55px;
+  margin-left:50px;
   display: block; font-size:30pt;
   font-family:Georgia
 }
@@ -751,8 +751,8 @@ body {
   .image11 {
     position: relative;
     top:200px;
-    width: 350px;
-    height: 234px;
+    width: 319px;
+    height: 325px;
     right:25.5px;
     background-repeat: no-repeat;
     background-position: center;
@@ -763,7 +763,7 @@ body {
   .image11:after {
       content: '\A';
       position: absolute;
-      width: 350px; height:234px;
+      width: 319px; height:325px;
       top:0; left:0;
       background:rgba(0,0,0,0.6);
       opacity: 0;
@@ -778,8 +778,8 @@ body {
   .image12 {
     position: relative;
     top:200px;
-    width: 300px;
-    height: 319px;
+    width: 306px;
+    height: 325px;
     left:0px;
     background-repeat: no-repeat;
     background-position: center;
@@ -790,7 +790,7 @@ body {
   .image12:after {
       content: '\A';
       position: absolute;
-      width: 300px; height:319px;
+      width: 306px; height:325px;
       top:0; left:0;
       background:rgba(0,0,0,0.6);
       opacity: 0;
@@ -923,7 +923,7 @@ body {
   .text11 {
     text-align: center;
     margin-top: 201px;
-    margin-left:0px;
+    margin-left:-30px;
     display: block; font-size:30pt;
     font-family:Georgia
   }
