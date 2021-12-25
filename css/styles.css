@@ -76,19 +76,19 @@ body {
 .image3 {
   position: relative;
   top:200px;
-  width: 350px;
-  height: 233px;
-  right:65px;
+  width: 300px;
+  height: 258px;
+  right:18px;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../books/books-pictures/main.jpeg");
+  background-image: url("../microblog/microblog-pictures/1.jpeg");
   background-size: contain;
 }
 
 .image3:after {
     content: '\A';
     position: absolute;
-    width: 350px; height:233px;
+    width: 300px; height:258px;
     top:0; left:0;
     background:rgba(0,0,0,0.6);
     opacity: 0;
@@ -103,19 +103,19 @@ body {
 .image4 {
   position: relative;
   top:200px;
-  width: 350px;
-  height: 233px;
+  width: 300px;
+  height: 258px;
   left:18px;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../microblog/microblog-pictures/main.jpeg");
+  background-image: url("../gym/gym-pictures/1.jpeg");
   background-size: contain;
 }
 
 .image4:after {
     content: '\A';
     position: absolute;
-    width: 350px; height:233px;
+    width: 300px; height:258px;
     top:0; left:0;
     background:rgba(0,0,0,0.6);
     opacity: 0;
@@ -130,19 +130,19 @@ body {
 .image5 {
   position: relative;
   top:200px;
-  width: 281px;
-  height: 375px;
-  left:0px;
+  width: 300px;
+  height: 259px;
+  right:18px;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../pictures/pictures-pictures/main.png");
+  background-image: url("../music/music-pictures/main.jpeg");
   background-size: contain;
 }
 
 .image5:after {
     content: '\A';
     position: absolute;
-    width: 281px; height:375px;
+    width: 300px; height:259px;
     top:0; left:0;
     background:rgba(0,0,0,0.6);
     opacity: 0;
@@ -157,19 +157,19 @@ body {
 .image6 {
   position: relative;
   top:200px;
-  width: 250px;
-  height: 375px;
+  width: 300px;
+  height: 259px;
   left:18px;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../gym/gym-pictures/main.jpeg");
+  background-image: url("../pictures/pictures-pictures/main2.jpeg");
   background-size: contain;
 }
 
 .image6:after {
     content: '\A';
     position: absolute;
-    width: 250px; height:375px;
+    width: 300px; height:259px;
     top:0; left:0;
     background:rgba(0,0,0,0.6);
     opacity: 0;
@@ -184,19 +184,19 @@ body {
 .image7 {
   position: relative;
   top:200px;
-  width: 325px;
-  height: 281px;
-  right:40px;
+  width: 300px;
+  height: 259px;
+  right:18px;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../music/music-pictures/main.jpeg");
+  background-image: url("../books/books-pictures/3.jpeg");
   background-size: contain;
 }
 
 .image7:after {
     content: '\A';
     position: absolute;
-    width: 325px; height:281px;
+    width: 300px; height:259px;
     top:0; left:0;
     background:rgba(0,0,0,0.6);
     opacity: 0;
@@ -211,8 +211,8 @@ body {
 .image8 {
   position: relative;
   top:200px;
-  width: 325px;
-  height: 280px;
+  width: 300px;
+  height: 259px;
   left:18px;
   background-repeat: no-repeat;
   background-position: center;
@@ -223,7 +223,7 @@ body {
 .image8:after {
     content: '\A';
     position: absolute;
-    width: 325px; height:280px;
+    width: 300px; height:259px;
     top:0; left:0;
     background:rgba(0,0,0,0.6);
     opacity: 0;
@@ -238,19 +238,19 @@ body {
 .image9 {
   position: relative;
   top:200px;
-  width: 284px;
-  height: 300px;
-  right:0px;
+  width: 300px;
+  height: 258px;
+  right:18px;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../altruism/altruism-pictures/main.jpeg");
+  background-image: url("../altruism/altruism-pictures/1.jpeg");
   background-size: contain;
 }
 
 .image9:after {
     content: '\A';
     position: absolute;
-    width: 284px; height:300px;
+    width: 300px; height:258px;
     top:0; left:0;
     background:rgba(0,0,0,0.6);
     opacity: 0;
@@ -265,19 +265,19 @@ body {
 .image10 {
   position: relative;
   top:200px;
-  width: 282px;
-  height: 300px;
-  left:20px;
+  width: 300px;
+  height: 257px;
+  left:18px;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../mental-health/mental-health-pictures/main.png");
+  background-image: url("../mental-health/mental-health-pictures/4.jpg");
   background-size: contain;
 }
 
 .image10:after {
     content: '\A';
     position: absolute;
-    width: 282px; height:300px;
+    width: 300px; height:257px;
     top:0; left:0;
     background:rgba(0,0,0,0.6);
     opacity: 0;
@@ -300,39 +300,39 @@ body {
 .text3 {
   text-align: center;
   margin-top: 203px;
-  margin-right:85px;
+  margin-right:40px;
   display: block; font-size:30pt;
   font-family:Georgia
 }
 
 .text4 {
   text-align: center;
-  margin-top: 203px;
-  margin-left:90px;
+  margin-top: 197px;
+  margin-left:40px;
   display: block; font-size:30pt;
   font-family:Georgia
 }
 
 .text5 {
   text-align: center;
-  margin-top: 201px;
-  margin-right:20px;
+  margin-top: 202px;
+  margin-right:40px;
   display: block; font-size:30pt;
   font-family:Georgia
 }
 
 .text6 {
   text-align: center;
-  margin-top: 197px;
-  margin-right:10px;
+  margin-top: 203px;
+  margin-left:40px;
   display: block; font-size:30pt;
   font-family:Georgia
 }
 
 .text7 {
   text-align: center;
-  margin-top: 201px;
-  margin-right:60px;
+  margin-top: 203px;
+  margin-right:40px;
   display: block; font-size:30pt;
   font-family:Georgia
 }
@@ -340,15 +340,15 @@ body {
 .text8 {
   text-align: center;
   margin-top: 203px;
-  margin-left:60px;
+  margin-left:40px;
   display: block; font-size:30pt;
   font-family:Georgia
 }
 
 .text9 {
   text-align: center;
-  margin-top: 201px;
-  margin-right:20px;
+  margin-top: 203px;
+  margin-right:45px;
   display: block; font-size:30pt;
   font-family:Georgia
 }
@@ -356,7 +356,7 @@ body {
 .text10 {
   text-align: center;
   margin-top: 203px;
-  margin-left:25px;
+  margin-left:35px;
   display: block; font-size:30pt;
   font-family:Georgia
 }
@@ -458,19 +458,19 @@ body {
   .image3 {
     position: relative;
     top:200px;
-    width: 350px;
-    height: 233px;
-    right:25.5px;
+    width: 300px;
+    height: 258px;
+    left:0px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("../books/books-pictures/main.jpeg");
+    background-image: url("../microblog/microblog-pictures/1.jpeg");
     background-size: contain;
   }
 
   .image3:after {
       content: '\A';
       position: absolute;
-      width: 350px; height:233px;
+      width: 300px; height:258px;
       top:0; left:0;
       background:rgba(0,0,0,0.6);
       opacity: 0;
@@ -485,19 +485,19 @@ body {
   .image4 {
     position: relative;
     top:200px;
-    width: 350px;
-    height: 233px;
-    left:-25.5px;
+    width: 300px;
+    height: 258px;
+    left:0px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("../microblog/microblog-pictures/main.jpeg");
+    background-image: url("../gym/gym-pictures/1.jpeg");
     background-size: contain;
   }
 
   .image4:after {
       content: '\A';
       position: absolute;
-      width: 350px; height:233px;
+      width: 300px; height:258px;
       top:0; left:0;
       background:rgba(0,0,0,0.6);
       opacity: 0;
@@ -512,19 +512,19 @@ body {
   .image5 {
     position: relative;
     top:200px;
-    width: 281px;
-    height: 375px;
-    left:10px;
+    width: 300px;
+    height: 259px;
+    right:0px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("../pictures/pictures-pictures/main.png");
+    background-image: url("../music/music-pictures/main.jpeg");
     background-size: contain;
   }
 
   .image5:after {
       content: '\A';
       position: absolute;
-      width: 281px; height:375px;
+      width: 300px; height:259px;
       top:0; left:0;
       background:rgba(0,0,0,0.6);
       opacity: 0;
@@ -539,19 +539,19 @@ body {
   .image6 {
     position: relative;
     top:200px;
-    width: 250px;
-    height: 375px;
-    left:22.5px;
+    width: 300px;
+    height: 259px;
+    left:0px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("../gym/gym-pictures/main.jpeg");
+    background-image: url("../pictures/pictures-pictures/main2.jpeg");
     background-size: contain;
   }
 
   .image6:after {
       content: '\A';
       position: absolute;
-      width: 250px; height:375px;
+      width: 300px; height:259px;
       top:0; left:0;
       background:rgba(0,0,0,0.6);
       opacity: 0;
@@ -566,19 +566,19 @@ body {
   .image7 {
     position: relative;
     top:200px;
-    width: 325px;
-    height: 281px;
-    right:12.5px;
+    width: 300px;
+    height: 259px;
+    right:0px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("../music/music-pictures/main.jpeg");
+    background-image: url("../books/books-pictures/3.jpeg");
     background-size: contain;
   }
 
   .image7:after {
       content: '\A';
       position: absolute;
-      width: 325px; height:281px;
+      width: 300px; height:259px;
       top:0; left:0;
       background:rgba(0,0,0,0.6);
       opacity: 0;
@@ -593,9 +593,9 @@ body {
   .image8 {
     position: relative;
     top:200px;
-    width: 325px;
-    height: 280px;
-    left:-12.5px;
+    width: 300px;
+    height: 259px;
+    left:0px;
     background-repeat: no-repeat;
     background-position: center;
     background-image: url("../binge-watch/binge-watch-pictures/main.jpeg");
@@ -605,7 +605,7 @@ body {
   .image8:after {
       content: '\A';
       position: absolute;
-      width: 325px; height:280px;
+      width: 300px; height:259px;
       top:0; left:0;
       background:rgba(0,0,0,0.6);
       opacity: 0;
@@ -620,19 +620,19 @@ body {
   .image9 {
     position: relative;
     top:200px;
-    width: 284px;
-    height: 300px;
-    left:8px;
+    width: 300px;
+    height: 258px;
+    right:0px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("../altruism/altruism-pictures/main.jpeg");
+    background-image: url("../altruism/altruism-pictures/1.jpeg");
     background-size: contain;
   }
 
   .image9:after {
       content: '\A';
       position: absolute;
-      width: 284px; height:300px;
+      width: 300px; height:258px;
       top:0; left:0;
       background:rgba(0,0,0,0.6);
       opacity: 0;
@@ -647,19 +647,19 @@ body {
   .image10 {
     position: relative;
     top:200px;
-    width: 282px;
-    height: 300px;
-    left:9px;
+    width: 300px;
+    height: 257px;
+    left:0px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("../mental-health/mental-health-pictures/main.png");
+    background-image: url("../mental-health/mental-health-pictures/4.jpg");
     background-size: contain;
   }
 
   .image10:after {
       content: '\A';
       position: absolute;
-      width: 282px; height:300px;
+      width: 300px; height:257px;
       top:0; left:0;
       background:rgba(0,0,0,0.6);
       opacity: 0;
@@ -689,7 +689,7 @@ body {
 
   .text4 {
     text-align: center;
-    margin-top: 203px;
+    margin-top: 197px;
     margin-left:0px;
     display: block; font-size:30pt;
     font-family:Georgia
@@ -697,7 +697,7 @@ body {
 
   .text5 {
     text-align: center;
-    margin-top: 201px;
+    margin-top: 202px;
     margin-right:0px;
     display: block; font-size:30pt;
     font-family:Georgia
@@ -705,15 +705,15 @@ body {
 
   .text6 {
     text-align: center;
-    margin-top: 197px;
-    margin-right:0px;
+    margin-top: 203px;
+    margin-left:0px;
     display: block; font-size:30pt;
     font-family:Georgia
   }
 
   .text7 {
     text-align: center;
-    margin-top: 201px;
+    margin-top: 203px;
     margin-right:0px;
     display: block; font-size:30pt;
     font-family:Georgia
@@ -729,7 +729,7 @@ body {
 
   .text9 {
     text-align: center;
-    margin-top: 201px;
+    margin-top: 203px;
     margin-right:0px;
     display: block; font-size:30pt;
     font-family:Georgia
