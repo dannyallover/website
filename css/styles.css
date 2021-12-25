@@ -48,20 +48,20 @@ body {
 
 .image2 {
   position: fixed;
-  top:200px;
-  width: 267px;
-  height: 342px;
-  left:16.5px;
+  top:270px;
+  width: 300px;
+  height: 258px;
+  left:18px;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../cv/cv-pictures/main.jpeg");
+  background-image: url("../cv/cv-pictures/1.png");
   background-size: contain;
 }
 
 .image2:after {
     content: '\A';
     position: absolute;
-    width: 267px; height:342px;
+    width: 300px; height:258px;
     top:0; left:0;
     background:rgba(0,0,0,0.6);
     opacity: 0;
@@ -291,8 +291,8 @@ body {
 
 .text2 {
   text-align: center;
-  margin-top: 540px;
-  margin-left:0px;
+  margin-top: 523px;
+  margin-left:35px;
   display: block; font-size:30pt;
   font-family:Georgia
 }
