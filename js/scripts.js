@@ -161,7 +161,7 @@
     // Listen for `scroll` event to update `target` scroll position
     window.addEventListener('scroll', updateScroll)
   } else {
-    document.location.href = 'mobile-page.html';
+    document.location.href = 'temp/mobile-page.html';
   }
 
   // Initial setup
