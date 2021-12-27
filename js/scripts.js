@@ -155,7 +155,7 @@
     })
   }
 
-  if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+  if(!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
     // Listen for `resize` event to recalculate dimmensions
     window.addEventListener('resize', setupAnimation)
     // Listen for `scroll` event to update `target` scroll position
