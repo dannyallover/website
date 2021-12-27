@@ -155,7 +155,6 @@
     })
   }
 
-
   // Listen for `resize` event to recalculate dimmensions
   window.addEventListener('resize', setupAnimation)
   // Listen for `scroll` event to update `target` scroll position
