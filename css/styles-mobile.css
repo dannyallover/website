@@ -54,7 +54,7 @@ body {
   left:0px;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../cv/cv-pictures/1.png");
+  background-image: url("../cv/cv-pictures/main.png");
   background-size: contain;
 }
 
@@ -81,7 +81,7 @@ body {
   left:0px;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../microblog/microblog-pictures/1.jpeg");
+  background-image: url("../microblog/microblog-pictures/main.jpeg");
   background-size: contain;
 }
 
@@ -108,7 +108,7 @@ body {
   left:0px;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../gym/gym-pictures/1.jpeg");
+  background-image: url("../gym/gym-pictures/main.jpeg");
   background-size: contain;
 }
 
@@ -162,7 +162,7 @@ body {
   left:0px;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../pictures/pictures-pictures/main2.jpeg");
+  background-image: url("../pictures/pictures-pictures/main.jpeg");
   background-size: contain;
 }
 
@@ -189,7 +189,7 @@ body {
   left:0px;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../books/books-pictures/3.jpeg");
+  background-image: url("../books/books-pictures/main.jpeg");
   background-size: contain;
 }
 
@@ -243,7 +243,7 @@ body {
   left:0px;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../altruism/altruism-pictures/1.jpeg");
+  background-image: url("../altruism/altruism-pictures/main.jpeg");
   background-size: contain;
 }
 
@@ -270,7 +270,7 @@ body {
   left:0px;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../mental-health/mental-health-pictures/4.jpg");
+  background-image: url("../mental-health/mental-health-pictures/main.jpg");
   background-size: contain;
 }
 
@@ -436,7 +436,7 @@ body {
     left:0px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("../cv/cv-pictures/1.png");
+    background-image: url("../cv/cv-pictures/main.png");
     background-size: contain;
   }
 
@@ -463,7 +463,7 @@ body {
     left:0px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("../microblog/microblog-pictures/1.jpeg");
+    background-image: url("../microblog/microblog-pictures/main.jpeg");
     background-size: contain;
   }
 
@@ -490,7 +490,7 @@ body {
     left:0px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("../gym/gym-pictures/1.jpeg");
+    background-image: url("../gym/gym-pictures/main.jpeg");
     background-size: contain;
   }
 
@@ -544,7 +544,7 @@ body {
     left:0px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("../pictures/pictures-pictures/main2.jpeg");
+    background-image: url("../pictures/pictures-pictures/main.jpeg");
     background-size: contain;
   }
 
@@ -571,7 +571,7 @@ body {
     left:0px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("../books/books-pictures/3.jpeg");
+    background-image: url("../books/books-pictures/main.jpeg");
     background-size: contain;
   }
 
@@ -625,7 +625,7 @@ body {
     left:0px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("../altruism/altruism-pictures/1.jpeg");
+    background-image: url("../altruism/altruism-pictures/main.jpeg");
     background-size: contain;
   }
 
@@ -652,7 +652,7 @@ body {
     left:0px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("../mental-health/mental-health-pictures/4.jpg");
+    background-image: url("../mental-health/mental-health-pictures/main.jpg");
     background-size: contain;
   }
 
