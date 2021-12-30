@@ -4,6 +4,12 @@
   padding: 50px;
 }
 
+.sup {
+  position: relative;
+  bottom: 1ex;
+  font-size: 80%;
+}
+
 h1 { color: black; font-family: 'Georgia', sans-serif; font-size: 34px; font-weight: 300; line-height: 40px; margin: 0 0 16px; }
 
 h2 { color: black; font-family: 'Georgia', sans-serif; font-size: 29px; font-weight: 300; line-height: 36px; margin: 0 0 5px;  }
