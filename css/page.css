@@ -1,0 +1,53 @@
+.content {
+  max-width: 600px; /* Updated from 800px to 600px */
+  margin: 20px auto;
+  padding: 50px;
+}
+
+.sup {
+  position: relative;
+  bottom: 1ex;
+  font-size: 80%;
+}
+
+h1 {
+  color: black;
+  font-family: Georgia, sans-serif;
+  font-size: 34px;
+  font-weight: 300;
+  line-height: 40px;
+  margin: 0 0 16px;
+}
+
+h2 {
+  color: black;
+  font-family: Georgia, sans-serif;
+  font-size: 29px;
+  font-weight: 300;
+  line-height: 36px;
+  margin: 0 0 5px;
+}
+
+h3 {
+  color: black;
+  font-family: Georgia, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 32px;
+  margin: 0 0 5px;
+}
+
+body {
+  background-color: #fbfbfb;
+  font-family: Verdana, sans-serif; /* Added Arial as the default font for the body */
+}
+
+table {
+  font-family: Verdana, sans-serif;
+  font-size: 0.75em; /* Smaller font size for all table content */
+}
+
+table td:first-child {
+  color: gray;      /* Gray text for the first column */
+  padding-right: 50px; /* Adds space between the first and second column */
+}
