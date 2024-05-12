@@ -27,7 +27,7 @@
   // Target scroll position
   var target = 0
   // Ease or speed for moving from `current` to `target`
-  var ease = 0.075
+  var ease = 0.125
   // Utility variables for `requestAnimationFrame`
   var rafId = undefined
   var rafActive = false
