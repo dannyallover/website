@@ -1,7 +1,7 @@
 .content {
-  max-width: 600px; /* Updated from 800px to 600px */
-  margin: 20px auto;
-  padding: 50px;
+  max-width: 800px; /* Updated from 800px to 600px */
+  margin: 100px auto;
+  padding-left: 100px;
 }
 
 .sup {
@@ -48,6 +48,13 @@ table {
 }
 
 table td:first-child {
-  color: gray;      /* Gray text for the first column */
-  padding-right: 50px; /* Adds space between the first and second column */
+  color: gray;
+  width: 100px; /* Fixed width for the first column */
+  padding-right: 20px; /* Adds space between the first and second column */
+  white-space: nowrap;
+}
+
+table td:nth-child(2) {
+  width: 600px; /* Fixed width for the second column */
+  white-space: nowrap; /* Prevent text wrapping */
 }
