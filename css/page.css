@@ -58,3 +58,13 @@ table td:nth-child(2) {
   width: 600px; /* Fixed width for the second column */
   white-space: nowrap; /* Prevent text wrapping */
 }
+
+.tab.active {
+    font-weight: bold; /* Makes text bold for active tabs */
+}
+
+.tab-content {
+  max-width: 800px; /* Updated from 800px to 600px */
+  margin: 100px auto;
+  padding-left: 100px;
+}

@@ -1,0 +1,56 @@
+.content {
+  max-width: 800px; /* Updated from 800px to 600px */
+  margin: 100px auto;
+  padding-left: 100px;
+}
+
+.slash {
+  font-size: 1.5em;
+}
+
+.tab {
+  font-size: 1.25em;
+  cursor: pointer;
+}
+
+.tab.active {
+    padding-left: 5px;
+    font-weight: bold; /* Makes text bold for active tabs */
+}
+
+.tab-content {
+  max-width: 800px; /* Updated from 800px to 600px */
+  margin: 50px auto;
+  padding-left: 50px;
+}
+
+h1 {
+  color: black;
+  font-family: Georgia, sans-serif;
+  font-size: 34px;
+  font-weight: 300;
+  line-height: 40px;
+  margin: 0 0 16px;
+}
+
+body {
+  background-color: #fbfbfb;
+  font-family: Verdana, sans-serif; /* Added Arial as the default font for the body */
+}
+
+table {
+  font-family: Verdana, sans-serif;
+  font-size: 1em; /* Smaller font size for all table content */
+}
+
+table td:first-child {
+  color: gray;
+  width: 100px; /* Fixed width for the first column */
+  padding-right: 20px; /* Adds space between the first and second column */
+  white-space: nowrap;
+}
+
+table td:nth-child(2) {
+  /* width: 600px; /* Fixed width for the second column */ */
+  white-space: nowrap; /* Prevent text wrapping */
+}

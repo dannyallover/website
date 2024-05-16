@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>rk <> danny</title>
+    <link rel="stylesheet" href="../css/rk_page.css">
+</head>
+<body>
+  <script>
+    // Sample data
+    const entries = [
+      { date: "2024-05-01", category: "Math", details: "abcdef" },
+      { date: "2024-01-01", category: "Math", details: "abcdef" },
+      { date: "2024-01-01", category: "Math", details: "abcdef" },
+      { date: "2024-02-14", category: "Skateboarding", details: "abcdef" },
+      { date: "2024-03-17", category: "Vacation", details: "abcdef" },
+      { date: "2024-03-15", category: "Jordans", details: "abcdef" }
+    ];
+
+    function showContent(tabName) {
+      var contents = document.getElementsByClassName("tab-content");
+      for (var i = 0; i < contents.length; i++) {
+        contents[i].style.display = "none";
+      }
+      var tabs = document.getElementsByClassName("tab");
+      for (var i = 0; i < tabs.length; i++) {
+        tabs[i].classList.remove("active");
+      }
+      document.getElementById(tabName).style.display = "block";
+      document.getElementById(tabName + "-tab").classList.add("active");
+      updateTable(tabName);
+    }
+
+    function formatDate(dateString) {
+      const date = new Date(dateString);
+      return date.toLocaleDateString('en-US', {
+        year: 'numeric', month: 'long', day: 'numeric'
+      });
+    }
+
+    function updateTable(tabName) {
+      const table = document.getElementById(tabName + "-table");
+      table.innerHTML = ''; // Clear existing table contents
+      let data = [...entries]; // Clone the data to manipulate
+
+      if (tabName === 'by-date') {
+        data.sort((a, b) => a.date.localeCompare(b.date));
+      } else if (tabName === 'by-category') {
+        data.sort((a, b) => a.category.localeCompare(b.category));
+      }
+
+      // Generate table rows based on sorted/filtered data
+      data.forEach(entry => {
+        const row = table.insertRow();
+        const formattedDate = formatDate(entry.date); // Format the date
+        const cellDate = row.insertCell();
+        cellDate.textContent = formattedDate; // Use the formatted date
+        const cellCategory = row.insertCell();
+        cellCategory.textContent = entry.category;
+        const cellDetails = row.insertCell();
+        cellDetails.textContent = entry.details;
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      updateTable('show-selected'); // Initialize the table on page load
+    });
+  </script>
+
+
+<div class="content">
+    <h1>Ronny Halawi</h1>
+    <div class="tabs">
+        <span id="show-selected-tab" class="tab active" onclick="showContent('show-selected')">show selected</span> <span class="slash">/</span>
+        <span id="by-date-tab" class="tab" onclick="showContent('by-date')">by date</span> <span class="slash">/</span>
+        <span id="by-category-tab" class="tab" onclick="showContent('by-category')">by category</span>
+    </div>
+    <div id="show-selected" class="tab-content active">
+        <table id="show-selected-table"></table>
+    </div>
+    <div id="by-date" class="tab-content" style="display:none;">
+        <table id="by-date-table"></table>
+    </div>
+    <div id="by-category" class="tab-content" style="display:none;">
+        <table id="by-category-table"></table>
+    </div>
+</div>
+</body>
+</html>
