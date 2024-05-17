@@ -68,3 +68,8 @@ table td:nth-child(2) {
   margin: 100px auto;
   padding-left: 100px;
 }
+
+a {
+    color: #007BFF; /* Light blue color for links */
+    /* text-decoration: none; /* Optional: removes underline */ */
+}

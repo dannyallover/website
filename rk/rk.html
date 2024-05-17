@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>rk <> danny</title>
+    <title>rk</title>
     <link rel="stylesheet" href="../css/rk_page.css">
 </head>
 <body>
   <script>
     // Sample data
     const entries = [
-      { date: "2024-05-01", category: "Math", details: "abcdef" },
-      { date: "2024-01-01", category: "Math", details: "abcdef" },
-      { date: "2024-01-01", category: "Math", details: "abcdef" },
-      { date: "2024-02-14", category: "Skateboarding", details: "abcdef" },
-      { date: "2024-03-17", category: "Vacation", details: "abcdef" },
-      { date: "2024-03-15", category: "Jordans", details: "abcdef" }
+      // { date: "2024-05-01", category: "Math", details: "abcdef" },
+      // { date: "2024-01-01", category: "Math", details: "abcdef" },
+      // { date: "2024-01-01", category: "Math", details: "abcdef" },
+      // { date: "2024-02-14", category: "Skateboarding", details: "abcdef" },
+      // { date: "2024-03-17", category: "Vacation", details: "abcdef" },
+      // { date: "2024-03-15", category: "Math", details: "Mustang math competition." }
     ];
 
     function showContent(tabName) {
@@ -38,27 +38,49 @@
     }
 
     function updateTable(tabName) {
-      const table = document.getElementById(tabName + "-table");
-      table.innerHTML = ''; // Clear existing table contents
-      let data = [...entries]; // Clone the data to manipulate
+        const table = document.getElementById(tabName + "-table");
+        table.innerHTML = ''; // Clear existing table contents
+        let data = [...entries]; // Clone the data to manipulate
 
-      if (tabName === 'by-date') {
-        data.sort((a, b) => a.date.localeCompare(b.date));
-      } else if (tabName === 'by-category') {
-        data.sort((a, b) => a.category.localeCompare(b.category));
-      }
+        if (tabName === 'by-date') {
+            data.sort((a, b) => a.date.localeCompare(b.date));
+        } else if (tabName === 'by-category') {
+            data.sort((a, b) => a.category.localeCompare(b.category));
+        }
 
-      // Generate table rows based on sorted/filtered data
-      data.forEach(entry => {
-        const row = table.insertRow();
-        const formattedDate = formatDate(entry.date); // Format the date
-        const cellDate = row.insertCell();
-        cellDate.textContent = formattedDate; // Use the formatted date
-        const cellCategory = row.insertCell();
-        cellCategory.textContent = entry.category;
-        const cellDetails = row.insertCell();
-        cellDetails.textContent = entry.details;
-      });
+        // Generate table rows based on sorted/filtered data
+        data.forEach((entry, index) => {
+            const row = table.insertRow();
+            const formattedDate = formatDate(entry.date); // Format the date
+            const cellDate = row.insertCell();
+            cellDate.textContent = formattedDate; // Use the formatted date
+            const cellCategory = row.insertCell();
+            cellCategory.textContent = entry.category;
+            const cellDetails = row.insertCell();
+            cellDetails.textContent = entry.details;
+
+            // Add dropdown control
+            const cellDropdown = row.insertCell();
+            cellDropdown.innerHTML = '<div class="dropdown"><span class="dropbtn">&#9660;</span></div>';
+            cellDropdown.querySelector('.dropbtn').onclick = function() {
+                toggleImageRow(row, entry);
+            };
+        });
+    }
+
+    function toggleImageRow(baseRow, entry) {
+        let nextRow = baseRow.nextElementSibling;
+        if (nextRow && nextRow.classList.contains('image-row')) {
+            // If image row is already there, remove it
+            nextRow.remove();
+        } else {
+            // Create a new row for the image
+            const imageRow = baseRow.parentNode.insertRow(baseRow.rowIndex + 1);
+            imageRow.className = 'image-row';
+            const cell = imageRow.insertCell();
+            cell.colSpan = 4; // Adjust the number of columns to match your table
+            cell.innerHTML = '<img src="rk-pictures/main.jpg" style="width:100%;">'; // Set the correct path and style for your image
+        }
     }
 
     document.addEventListener('DOMContentLoaded', () => {

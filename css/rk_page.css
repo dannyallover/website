@@ -54,3 +54,22 @@ table td:nth-child(2) {
   /* width: 600px; /* Fixed width for the second column */ */
   white-space: nowrap; /* Prevent text wrapping */
 }
+
+.dropdown {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.dropdown .dropbtn:hover {
+    color: #808080;  // This will change the triangle to gray on hover
+}
+
+.image-row img {
+    width: 100%;  // Adjust based on your preference
+    height: auto;
+}
