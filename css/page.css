@@ -71,5 +71,5 @@ table td:nth-child(2) {
 
 a {
     color: #007BFF; /* Light blue color for links */
-    /* text-decoration: none; /* Optional: removes underline */ */
+    text-decoration: none; /* Optional: removes underline */
 }
